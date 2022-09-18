@@ -1,0 +1,15 @@
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.colorBox {
+  background-color: blue;
+}

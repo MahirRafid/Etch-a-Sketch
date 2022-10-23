@@ -1,9 +1,12 @@
-for (let i = 0; i < 16; i++) {
+let x = 50;
+for (let i = 0; i < x; i++) {
   let main = document.createElement("div");
   main.classList.add("main");
-  for (let j = 0; j < 16; j++) {
+  for (let j = 0; j < x; j++) {
     let box = document.createElement("div");
     box.classList.add("box");
+    box.style.width = `${380 / x}px`;
+    box.style.height = `${380 / x}px`;
     box.addEventListener("mouseover", (e) => box.classList.add("colorBox"));
     main.append(box);
   }

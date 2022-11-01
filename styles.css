@@ -1,10 +1,10 @@
 html {
-  background-color: #222831;
-  color: #dddddd;
+  background-color: #e8e8e8;
+  color: #30475e;
 }
 
-.box {
-  background-color: whitesmoke;
+.boxStyle {
+  background-color: rgb(248, 247, 247);
   border: 0px;
 }
 
@@ -13,8 +13,8 @@ html {
   justify-content: center;
 }
 
-.colorBox {
-  background-color: rgb(13, 218, 254);
+.colorBoxBW {
+  background-color: #3c4048;
 }
 
 .header {
@@ -38,11 +38,11 @@ html {
 }
 
 .button {
-  background-color: #f8b400;
+  background-color: #30475e;
   border: none;
   border-radius: 3px;
   width: 200px;
-  color: whitesmoke;
+  color: white;
   padding: 13px 24px;
   text-align: center;
   text-decoration: none;
@@ -58,7 +58,7 @@ html {
   width: 100%;
   height: 10px;
   border-radius: 5px;
-  background: whitesmoke;
+  background: white;
   outline: none;
   /* opacity: ; */
   -webkit-transition: 0.2s;
@@ -71,7 +71,7 @@ html {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #f8b400;
+  background: #30475e;
   cursor: pointer;
 }
 
@@ -79,13 +79,17 @@ html {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #f8b400;
+  background: #30475e;
   cursor: pointer;
 }
 
 .gridSize {
   font-family: "Roboto", sans-serif;
-  color: whitesmoke;
+  color: #30475e;
   font-size: 18px;
   font-weight: 400;
+}
+
+.boxClear {
+  background-color: whitesmoke;
 }

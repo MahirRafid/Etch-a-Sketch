@@ -21,7 +21,8 @@ html {
   text-align: center;
   font-family: "Lobster", cursive;
   font-size: 52px;
-  padding: 32px;
+  padding-top: 28px;
+  padding-bottom: 44px;
 }
 
 .body {
@@ -42,12 +43,12 @@ html {
   border-radius: 3px;
   width: 200px;
   color: whitesmoke;
-  padding: 12px 24px;
+  padding: 13px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 24px;
   font-family: "Roboto", sans-serif;
 }
@@ -55,11 +56,11 @@ html {
 .slider {
   -webkit-appearance: none;
   width: 100%;
-  height: 15px;
+  height: 10px;
   border-radius: 5px;
-  background: #d3d3d3;
+  background: whitesmoke;
   outline: none;
-  opacity: 0.7;
+  /* opacity: ; */
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
 }
@@ -67,17 +68,24 @@ html {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: #f8b400;
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: #f8b400;
   cursor: pointer;
+}
+
+.gridSize {
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 400;
 }

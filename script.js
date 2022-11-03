@@ -3,8 +3,8 @@ let slider = document.querySelector(".slider");
 let sliderValue = slider.value;
 slider.oninput = function () {
   sliderValue = this.value;
-  setupGrid(sliderValue);
-  // console.log(sliderValue);
+  // setupGrid(sliderValue);
+  console.log(sliderValue);
 };
 
 let mouseDown = false;
